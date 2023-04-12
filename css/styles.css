@@ -1,0 +1,11 @@
+:root {
+    --color-purple: #666CA3;
+    --color-dark-blue: #13183F;
+    --color-gray: #83869A;
+    --color-pink: #F74780;
+    --color-light-pink: #FFA7C3;
+    --color-white: #FFFFFF;
+    --color-gradient-pink-orange: linear-gradient(to right, #F02AA6, #FF6F48);
+    --color-gradient-blue-pink: linear-gradient(to right, #4851FF, #F02AA6);
+  }
+  
