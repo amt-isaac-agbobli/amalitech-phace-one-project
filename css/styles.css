@@ -52,22 +52,6 @@
     line-height: 1.625;
     color: var(--color-gray);
   }
-  @media (min-width: 768px) {
-    h1 {
-      font-size: 3.5rem;
-    }
-    h2 {
-      font-size: 2rem;
-      line-height: 1.25;
-    }
-    h3 {
-      font-size: 1.5rem;
-    }
-    p {
-      font-size: 1.125rem;
-      line-height: 1.556;
-    }
-  }
  
   a {
     color: inherit;
@@ -97,4 +81,40 @@
   }
   .dark-blue:hover {
     background-color: var(--color-gray);
+  }
+  .logo {
+    width: 86px;
+    height: 21px;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+    h2 {
+      font-size: 2rem;
+      line-height: 1.25;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1.125rem;
+      line-height: 1.556;
+    }
+    .button {
+        width: 167px;
+        height: 56px;
+        font-size: 1.125rem;
+      }
+  }
+  @media (min-width: 992px) {
+    .logo {
+      width: 112px;
+      height: 27px;
+    }
   }
