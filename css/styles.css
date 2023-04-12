@@ -81,7 +81,7 @@
     height: 48px;
     font-size: 1rem;
     font-weight: 700;
-    color: var(--colors-white);
+    color: var(--color-white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -92,4 +92,9 @@
     -o-border-radius: 28px;
   }
   
-  
+  .dark-blue {
+    background-color: var(--color-dark-blue);
+  }
+  .dark-blue:hover {
+    background-color: var(--color-gray);
+  }
