@@ -1,120 +1,251 @@
 :root {
-    --color-purple: #666CA3;
-    --color-dark-blue: #13183F;
-    --color-gray: #83869A;
-    --color-pink: #F74780;
-    --color-light-pink: #FFA7C3;
-    --color-white: #FFFFFF;
-    --color-gradient-pink-orange: linear-gradient(to right, #F02AA6, #FF6F48);
-    --color-gradient-blue-pink: linear-gradient(to right, #4851FF, #F02AA6);
-    --font : "Plus Jakarta Sans", sans-serif;
-  }
+  --color-purple: #666ca3;
+  --color-dark-blue: #13183f;
+  --color-gray: #83869a;
+  --color-pink: #f74780;
+  --color-light-pink: #ffa7c3;
+  --color-white: #ffffff;
+  --color-gradient-pink-orange: linear-gradient(to right, #f02aa6, #ff6f48);
+  --color-gradient-blue-pink: linear-gradient(to right, #4851ff, #f02aa6);
+  --font: "Plus Jakarta Sans", sans-serif;
+}
 /* general styles */
-  ::before,
-  ::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
 
-  body {
-    font-family: var(--font);
-    cursor: default;
-  }
+body {
+  font-family: var(--font);
+  cursor: default;
+}
 
- /*Topography*/ 
- h1 {
-    font-size: 2.5rem;
-    line-height: 1.25;
+/*Topography*/
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.25;
+}
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.333;
+  color: var(--color-white);
+}
+h3 {
+  font-size: 1.25rem;
+}
+h1,
+h3 {
+  color: var(--colors-darkblue);
+}
+h1,
+h2,
+h3 {
+  font-weight: 800;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.625;
+  color: var(--color-gray);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button {
+  width: 140px;
+  height: 48px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
+}
+
+.dark-blue {
+  background-color: var(--color-dark-blue);
+}
+.dark-blue:hover {
+  background-color: var(--color-gray);
+}
+.logo {
+  width: 86px;
+  height: 21px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.hero {
+  padding-top: 80px;
+  overflow: hidden;
+}
+.hero-container {
+  padding-top: 22px;
+  display: flex;
+  flex-direction: column;
+}
+.hero-content h1 {
+  max-width: 326px;
+}
+.hero-content p {
+  max-width: 400px;
+  padding: 26px 0 24px;
+}
+.hero-image {
+  max-width: 370px;
+  margin-top: 28px;
+  align-self: center;
+}
+.hero-image img {
+  width: 170%;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* @media (min-width: 375px), (max-width: 375px) {
+    .container {
+      width: 100%;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  @media (min-width: 576px) {
+    .container {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+  }*/
+/* Tablet */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
   }
   h2 {
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+  h3 {
     font-size: 1.5rem;
-    line-height: 1.333;
-    color: var(--color-white);
-  }
-  h3 {
-    font-size: 1.25rem;
-  }
-  h1,
-  h3 {
-    color: var(--colors-darkblue);
-  }
-  h1,
-  h2,
-  h3 {
-    font-weight: 800;
   }
   p {
-    font-size: 1rem;
-    line-height: 1.625;
-    color: var(--color-gray);
+    font-size: 1.125rem;
+    line-height: 1.556;
   }
- 
-  a {
-    color: inherit;
-    text-decoration: none;
-    outline: none;
-    cursor: pointer;
+  .button {
+    width: 167px;
+    height: 56px;
+    font-size: 1.125rem;
+  }
+  .container {
+    width: 689px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
-  .button {
-    width: 140px;
-    height: 48px;
-    font-size: 1rem;
-    font-weight: 700;
-    color: var(--color-white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 28px;
-    -webkit-border-radius: 28px;
-    -moz-border-radius: 28px;
-    -ms-border-radius: 28px;
-    -o-border-radius: 28px;
+  .header-container {
+    height: 96px;
   }
-  
-  .dark-blue {
-    background-color: var(--color-dark-blue);
+  .hero {
+    padding-top: 96px;
   }
-  .dark-blue:hover {
-    background-color: var(--color-gray);
+  .hero-container {
+    padding-top: 75px;
+    padding-bottom: 188px;
+    position: relative;
   }
-  .logo {
-    width: 86px;
-    height: 21px;
+  .hero-image {
+    min-width: 695px;
+    height: 723px;
+    margin-top: 0;
+    position: absolute;
+    left: calc(50% - 20px);
+    bottom: 10px;
   }
-  .logo img {
+  .hero-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
-  @media (min-width: 768px) {
-    h1 {
-      font-size: 3.5rem;
-    }
-    h2 {
-      font-size: 2rem;
-      line-height: 1.25;
-    }
-    h3 {
-      font-size: 1.5rem;
-    }
-    p {
-      font-size: 1.125rem;
-      line-height: 1.556;
-    }
-    .button {
-        width: 167px;
-        height: 56px;
-        font-size: 1.125rem;
-      }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .logo {
+    width: 112px;
+    height: 27px;
   }
-  @media (min-width: 992px) {
-    .logo {
-      width: 112px;
-      height: 27px;
-    }
+  .container {
+    width: 892px;
   }
+
+  .header-container {
+    height: 104px;
+  }
+  .hero-content h1 {
+    max-width: 500px;
+  }
+  .hero-content p {
+    max-width: 445px;
+    padding: 29px 0 40px;
+  }
+  .hero-image {
+    min-width: 870px;
+    height: 938px;
+    bottom: -10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1110px;
+  }
+  .hero {
+    padding-top: 104px;
+  }
+  .hero-image {
+    left: calc(50% + 96px);
+    bottom: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .hero-container {
+    padding-top: 148px;
+    padding-bottom: 180px;
+  }
+  .hero-image {
+    min-width: 1046px;
+    left: calc(50% + 8px);
+  }
+}
