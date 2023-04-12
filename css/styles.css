@@ -7,5 +7,39 @@
     --color-white: #FFFFFF;
     --color-gradient-pink-orange: linear-gradient(to right, #F02AA6, #FF6F48);
     --color-gradient-blue-pink: linear-gradient(to right, #4851FF, #F02AA6);
+
+
   }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+ body{
+    padding: 2em;
+    font-family: 'Plus Jakarta Sans';
+ }
   
+  .header-content{
+    margin: auto 3.5rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .logo{
+    font-weight: bold;
+    color: var(--color-dark-blue);
+    font-size: 2.25rem;
+   
+  }
+
+  .nav-link{
+    
+    text-decoration: none;
+    border-radius: 1.75rem;
+    background: var(--color-dark-blue);
+    color:var(--color-white);
+    padding: 0.85rem 2rem;
+
+  }
