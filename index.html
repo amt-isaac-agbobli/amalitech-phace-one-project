@@ -12,28 +12,33 @@
 
 <body>
   <header>
-    <div class="header-content">
+    <div class="header-container">
       <span class="logo">Skilled</span>
-      <a href="#" class="nav-link">Get Started</a>
+      <a href="#" class="nav-button">Get Started</a>
     </div>
   </header>
   <main>
-    <section class="hero-section">
-      <div class="text-section">
+    <section class="hero-container">
+      <div class="hero-content">
         <h1> Maximize skill,<br /> minimize budget </h1>
         <p>Our modern courses across a range of in-demand skills will give you the
           knowledge you need to live the life you want.</p>
         <a href="#">Get Started</a>
       </div>
-      <div class="img-section">
-        <img src="assets/image-hero-desktop.png" alt="hero-image" />
+      <div class="hero-image">
+        <picture>
+          <source media="(min-width: 992px)" srcset="assets/image-hero-desktop.png">
+          <source media="(min-width: 768px)" srcset="assets/image-hero-tablet.png">
+          <img src="assets/image-hero-mobile.png" alt="image hero">
+       </picture>
       </div>
     </section>
-    <section class="services-section">
-      <div class="service">
+    
+    <section class="course-container">
+      <div class="course">
         <h2>Check out our most popular courses!</h2>
       </div>
-      <div class="service">
+      <div class="course">
         <img src="assets/icon-animation.svg" alt="ico" />
         <h3>Animation</h3>
         <p> Learn the latest animation techniques to create stunning motion
@@ -41,7 +46,7 @@
         </p>
         <a href="#">Get Started</a>
       </div>
-      <div class="service">
+      <div class="course">
         <img src="assets/icon-design.svg" alt="ico" />
         <h3>Design</h3>
         <p>
@@ -50,7 +55,7 @@
         </p>
         <a href="#">Get Started</a>
       </div>
-      <div class="service">
+      <div class="course">
         <img src="assets/icon-photography.svg" alt="ico" />
         <h3>Photography</h3>
         <p>
@@ -59,7 +64,7 @@
         </p>
         <a href="#">Get Started</a>
       </div>
-      <div class="service">
+      <div class="course">
         <img src="assets/icon-crypto.svg" alt="ico" />
         <h3>Crypto</h3>
         <p>
@@ -68,7 +73,7 @@
         </p>
         <a href="#">Get Started</a>
       </div>
-      <div class="service">
+      <div class="course">
         <img src="assets/icon-business.svg" alt="ico" />
         <h3>Business</h3>
         <p>
