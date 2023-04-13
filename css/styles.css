@@ -7,8 +7,8 @@
   --color-pink: #f74780;
   --color-light-pink: #ffa7c3;
   --color-white: #ffffff;
-  --color-gradient-pink-orange: linear-gradient(to right, #f02aa6, #ff6f48);
-  --color-gradient-blue-pink: linear-gradient(to right, #4851ff, #f02aa6);
+  --color-gradient-pink-orange: linear-gradient(to top, #f02aa6, #ff6f48);
+  --color-gradient-blue-pink: linear-gradient(to top, #4851ff, #f02aa6);
   --color-g-hover: linear-gradient(0deg,
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5));
@@ -149,7 +149,7 @@ a {
   color: var(--color-pink);
 }
 .link:hover {
-  color: var(--color-light-pink-pink);
+  color: var(--color-light-pink);
 }
 
 /* Container */
