@@ -29,6 +29,7 @@ body {
 h1 {
   font-size: 2.5rem;
   line-height: 1.25;
+  
 }
 h2 {
   font-size: 1.5rem;
@@ -40,12 +41,13 @@ h3 {
 }
 h1,
 h3 {
-  color: var(--colors-darkblue);
+  color: var(--color-dark-blue);
 }
 h1,
 h2,
 h3 {
   font-weight: 800;
+  
 }
 p {
   font-size: 1rem;
@@ -96,11 +98,6 @@ a {
   margin-right: auto;
 }
 
-header {
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-}
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -136,9 +133,8 @@ header {
   left: 50%;
   transform: translateX(-50%);
 }
-/* @media (min-width: 375px), (max-width: 375px) {
+ @media (min-width: 375px), (max-width: 375px) {
     .container {
-      width: 100%;
       padding-left: 16px;
       padding-right: 16px;
     }
@@ -148,7 +144,7 @@ header {
       padding-left: 32px;
       padding-right: 32px;
     }
-  }*/
+  } 
 /* Tablet */
 @media (min-width: 768px) {
   h1 {
@@ -170,22 +166,20 @@ header {
     height: 56px;
     font-size: 1.125rem;
   }
-  .container {
-    width: 689px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
 
   .header-container {
     height: 96px;
   }
-  .hero {
-    padding-top: 96px;
-  }
+
   .hero-container {
     padding-top: 75px;
     padding-bottom: 188px;
     position: relative;
+  }
+  .container {
+    width: 689px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .hero-image {
     min-width: 695px;
@@ -197,6 +191,7 @@ header {
   }
   .hero-image img {
     width: 100%;
+    
   }
 }
 
@@ -207,7 +202,7 @@ header {
     height: 27px;
   }
   .container {
-    width: 892px;
+    max-width: 892px;
   }
 
   .header-container {
@@ -228,9 +223,6 @@ header {
 }
 
 @media (min-width: 1200px) {
-  .container {
-    width: 1110px;
-  }
   .hero {
     padding-top: 104px;
   }
@@ -239,6 +231,7 @@ header {
     bottom: 0;
   }
 }
+
 @media (min-width: 1400px) {
   .hero-container {
     padding-top: 148px;
@@ -249,3 +242,4 @@ header {
     left: calc(50% + 8px);
   }
 }
+
