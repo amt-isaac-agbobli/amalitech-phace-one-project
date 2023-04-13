@@ -1,5 +1,6 @@
 /* Variables */
 :root {
+  /* Colors */
   --color-purple: #666ca3;
   --color-dark-blue: #13183f;
   --color-gray: #83869a;
@@ -8,12 +9,12 @@
   --color-white: #ffffff;
   --color-gradient-pink-orange: linear-gradient(to top, #f02aa6, #ff6f48);
   --color-gradient-blue-pink: linear-gradient(to top, #4851ff, #f02aa6);
-  --color-g-hover: linear-gradient(0deg,
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5));
-  --color-g-hover: linear-gradient(0deg,
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5));
+  --color-g-hover: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+  /* Font Style */
   --font-style: "Plus Jakarta Sans", sans-serif;
 }
 
@@ -82,8 +83,7 @@ p {
   line-height: 1.556;
 }
 
-
-/* Reset Some Elements */
+/* Reset a element */
 a {
   color: inherit;
   text-decoration: none;
@@ -139,7 +139,6 @@ a {
   background-image: var(--color-g-hover), var(--color-gradient-pink-orange);
 }
 
-
 /* Links */
 .link {
   width: fit-content;
@@ -170,7 +169,6 @@ a {
   object-fit: cover;
 }
 
-
 /* Header */
 header {
   position: absolute;
@@ -184,7 +182,6 @@ header {
   align-items: center;
   height: 80px;
 }
-
 
 /* Hero section */
 .hero {
@@ -315,11 +312,10 @@ footer {
   justify-content: space-between;
 }
 
-      /* Media Query */
+/* Media Query */
 
 /* Mobile Screen */
-@media (min-width: 375px),
-(max-width: 375px) {
+@media (min-width: 375px), (max-width: 375px) {
   .container {
     width: 100%;
     padding-left: 16px;
@@ -451,7 +447,6 @@ footer {
   .courses-course p {
     padding-top: 24px;
   }
-
 }
 
 /* Desktop Screen */
@@ -484,4 +479,3 @@ footer {
     padding-top: 72px;
   }
 }
-
