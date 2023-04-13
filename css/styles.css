@@ -30,7 +30,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: var(--fonts-main);
+  font-family: var(--font);
   cursor: default;
 }
 
@@ -95,7 +95,7 @@ a {
   height: 48px;
   font-size: 1rem;
   font-weight: 700;
-  color: var(--colors-white);
+  color: var(--color-white);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -111,10 +111,10 @@ a {
 .dark-blue:hover {
   background-color: var(--color-gray);
 }
-.btn-gradient-blue-pink {
-  background-image: var(--color-light-pink);
+.gradient-blue-pink {
+  background-image: var(--color-gradient-blue-pink);
 }
-.btn-blue-pink:hover {
+.gradient-blue-pink:hover {
   background-image: var(--color-g-hover), var(--color-gradient-blue-pink);
 }
 .btn-gradient-pink-orange {
@@ -146,10 +146,10 @@ a {
   width: fit-content;
   font-size: 1.125rem;
   font-weight: 700;
-  color: var(--colors-pink);
+  color: var(--color-pink);
 }
 .link:hover {
-  color: var(--colors-carnation-pink);
+  color: var(--color-light-pink-pink);
 }
 
 /* Container */
@@ -342,7 +342,7 @@ header {
   -o-border-radius: 10px;
 }
 .courses-course {
-  background-color: var(--colors-white);
+  background-color: var(--color-white);
   padding: 56px 26px 32px 28px;
   display: flex;
   flex-direction: column;
@@ -423,3 +423,13 @@ header {
   }
 }
 
+/* Footer */
+footer {
+  background-color: var(--color-dark-blue);
+}
+.footer-container {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
