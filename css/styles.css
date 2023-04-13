@@ -84,10 +84,6 @@ p {
 
 
 /* Reset Some Elements */
-ul {
-  list-style: none;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -112,11 +108,11 @@ a {
   -o-border-radius: 28px;
 }
 
-.dark-blue {
+.btn-dark-blue {
   background-color: var(--color-dark-blue);
 }
 
-.dark-blue:hover {
+.btn-dark-blue:hover {
   background-color: var(--color-gray);
 }
 
@@ -174,12 +170,6 @@ a {
   object-fit: cover;
 }
 
-@media (min-width: 992px) {
-  .logo {
-    width: 112px;
-    height: 27px;
-  }
-}
 
 /* Header */
 header {
@@ -325,6 +315,9 @@ footer {
   justify-content: space-between;
 }
 
+      /* Media Query */
+
+/* Mobile Screen */
 @media (min-width: 375px),
 (max-width: 375px) {
   .container {
@@ -341,6 +334,7 @@ footer {
   }
 }
 
+/* Tablet */
 @media (min-width: 768px) {
   .container {
     width: 689px;
@@ -390,7 +384,7 @@ footer {
   }
 }
 
-
+/* Laptop */
 @media (min-width: 992px) {
   h1 {
     font-size: 3.5rem;
@@ -404,6 +398,10 @@ footer {
 
   .btn-gradient-pink-orange {
     height: 63px;
+  }
+  .logo {
+    width: 112px;
+    height: 27px;
   }
 
   .container {
@@ -456,6 +454,7 @@ footer {
 
 }
 
+/* Desktop Screen */
 @media (min-width: 1200px) {
   .container {
     width: 1110px;
@@ -481,10 +480,8 @@ footer {
     min-width: 1046px;
     left: calc(50% + 8px);
   }
-}
-
-@media (min-width: 1400px) {
   .courses-container {
     padding-top: 72px;
   }
 }
+
