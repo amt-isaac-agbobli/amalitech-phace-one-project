@@ -34,4 +34,4 @@ The website was designed using the mobile-first approach. This means that the de
 
 ## Conclusion
 
-In conclusion, the landing page website was developed using HTML and CSS and follows the mobile-first approach for responsive design. The website structure includes a header, hero section, features section, testimonials section, pricing section, CTA section, and footer. The mobile-first approach helps to ensure that the website is responsive and looks good on different devices.
+In conclusion, the landing page website was developed using HTML and CSS and follows the mobile-first approach for responsive design. The website structure includes a header, hero section, features section, and footer. The mobile-first approach helps to ensure that the website is responsive and looks good on different devices.
