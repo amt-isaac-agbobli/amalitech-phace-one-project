@@ -32,6 +32,15 @@ The website consists of the following sections:
 
 The website was designed using the mobile-first approach. This means that the design and layout were optimized for mobile devices first and then scaled up for larger screens. This approach helps to ensure that the website is responsive and looks good on different devices.
 
+## Author
+
+Agbobli Isaac Kwadzo
+Amalitech Software Back-End Trainee 
+
+## Link to the page
+
+https://6438a0e465d06f5531915cfe--whimsical-cactus-59e333.netlify.app/
+
 ## Conclusion
 
 In conclusion, the landing page website was developed using HTML and CSS and follows the mobile-first approach for responsive design. The website structure includes a header, hero section, features section, and footer. The mobile-first approach helps to ensure that the website is responsive and looks good on different devices.
